@@ -33,9 +33,11 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     # Apps we made.
     "custom_user.apps.CustomUserConfig",
-
     'chat_channel',
     'workspace',
+    'file',
+    'chat_reaction',
+    'chat',
 
     # Libraries
     'rest_framework',
